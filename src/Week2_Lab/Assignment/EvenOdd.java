@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class EvenOdd {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please Enter a number:");
 		int num = scan.nextInt();
