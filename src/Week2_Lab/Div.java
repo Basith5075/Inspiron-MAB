@@ -1,3 +1,4 @@
+package Week2_Lab;
 import java.util.Scanner;
 class Div 
 {
