@@ -1,8 +1,8 @@
-package Week2_Lab;
+package Week2_Lab.Assignment;
 
 import java.util.Scanner;
 
-public class Basic1 {
+public class Basic2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

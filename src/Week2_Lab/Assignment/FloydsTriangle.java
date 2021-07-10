@@ -16,16 +16,16 @@ public class FloydsTriangle {
 	 System.out.println("****************"); 
 	 for ( counter = 1 ; counter <= rows ; counter++ ) 
 	 { 
-	 for ( j = 1 ; j <= counter ; j++ ) 
-	 { 
-	 System.out.print(number+" "); 
-	 //Incrementing the number value
-	number++; 
-	 } 
+		 for ( j = 1 ; j <= counter ; j++ ) 
+		 { 
+			 System.out.print(number+" "); 
+			 //Incrementing the number value
+			 number++; 
+		 } 
 	 //For new line
-	 System.out.println(); 
+	System.out.println(); 
+	 	} 
 	 } 
-	 } 
-	}
+}
 
 

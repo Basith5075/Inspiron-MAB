@@ -3,20 +3,15 @@ package Week2_Lab.Assignment;
 import java.util.Scanner;
 
 public class WhileLoopDemo {
-
 	public static void main(String[] args) {
-	
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please Enter a Number Till where you want to add");
-		int num = scan.nextInt();
-		int sum=0;
-		int counter =0;
-		while(counter<=num) {
-			sum=counter+sum;
-			counter++;
+		int number, sum = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("n Please Enter any integer Value below 10: ");
+		number = sc.nextInt();
+		while (number <= 10) {
+			sum = sum + number;
+			number++;
 		}
-		
-		System.out.format("The sum of numbers till %d is = %d ",num,sum);
+	System.out.format(" Sum of the Numbers From the While Loop is: %d ", sum);
 	}
-
 }

@@ -1,4 +1,4 @@
-package Week2_Lab;
+package Week2_Lab.Assignment;
 
 public class QuotientRemainder {
 

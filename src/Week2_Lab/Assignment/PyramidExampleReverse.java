@@ -2,14 +2,16 @@ package Week2_Lab.Assignment;
 
 public class PyramidExampleReverse {
 		
-			public static void main(String[] args) {
-	
-			for(int i = 100; i>=1;i--) {
-				
-				for(int j = i;j>=1;j--) {
-					System.out.print("* ");
-				}
-				System.out.println();
+	public static void main(String[] args) {
+		int term=6;
+		for(int i=1;i<=term;i++)
+		{
+			for(int j=term;j>=i;j--)
+			{
+			System.out.print("* ");
 			}
+		System.out.println();//new line
+		}
+	}
 }
-}
+
